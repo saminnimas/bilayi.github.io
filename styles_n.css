@@ -1,0 +1,74 @@
+#main {
+    margin: 30px 8px;
+    padding: 20px;
+    border-radius: 50px;
+    background-image: url("backgroundimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title {
+    font-family: "Brush Script MT";
+    font-size: 50px;
+    text-align: center;
+}
+
+#image {
+    border-radius: 40px;
+    margin: 0 auto;
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+#img-div {
+    margin: 30px 8px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#footer {
+    background-color: beige;
+    border-radius: 50px;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.left_side {
+    display: flex;
+    margin-left: 5px;
+    font-size: 0.9em;
+}
+
+.right_side {
+    display: flex;
+}
+
+.nav_container > .right_side > div {
+    margin-right: 10px;
+    font-size: 0.9em;
+}
+
+.nav_link_wrapper {
+    height: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav_link_wrapper a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav_link_wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav_link_wrapper a:hover {
+    color: black;
+}
